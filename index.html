@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Sunil Chaudhary — Portfolio</title>
+    <meta name="description" content="Designer/Developer portfolio of Your Name. Projects, experience, and contact." />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Your Name — Portfolio" />
+    <meta property="og:description" content="Projects, experience, and contact." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="assets/favicon.png" />
+
+    <link rel="icon" href="assets/favicon.png" />
+    <link rel="preload" href="assets/avatar.jpg" as="image" />
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+        <div class="container header-inner">
+            <a class="brand" href="#">
+                <span class="brand-dot" aria-hidden="true"></span>
+                <span class="brand-text">Sunil Chaudhary</span>
+            </a>
+
+            <nav class="nav" aria-label="Primary">
+                <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu">
+                    <span class="sr-only">Toggle menu</span>
+                    <div class="hamburger"></div>
+                </button>
+                <ul id="nav-menu" class="nav-menu">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#contact" class="btn btn-primary">Contact</a></li>
+                    <li><button id="themeToggle" class="btn btn-ghost" aria-label="Toggle theme">🌙</button></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main">
+        <!-- Hero -->
+        <section class="hero container">
+            <div class="hero-content">
+                <h1>Hello, I’m <span class="accent">Your Name</span>.</h1>
+                <p class="lead">
+                    I design and build elegant, performant web experiences.
+                </p>
+                <div class="hero-ctas">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+                </div>
+                <ul class="chips">
+                    <li>Frontend</li>
+                    <li>Backend</li>
+                    <li>UI/UX</li>
+                    <li>Performance</li>
+                </ul>
+            </div>
+            <div class="hero-media">
+                <img src="assets/avatar.jpg" alt="Portrait of Your Name" class="avatar" />
+            </div>
+        </section>
+
+        <!-- About -->
+        <section id="about" class="section container">
+            <header class="section-header">
+                <h2>About</h2>
+                <p>I craft delightful products with clean code and thoughtful design.</p>
+            </header>
+            <div class="about-grid">
+                <p>
+                    With X+ years of experience, I specialize in building accessible, fast,
+                    and maintainable web apps. I love design systems, component-driven
+                    development, and shipping things people enjoy using.
+                </p>
+                <div class="about-cards">
+                    <article class="card">
+                        <h3>What I Do</h3>
+                        <ul>
+                            <li>Design → Code handoff</li>
+                            <li>SPA & SSR apps</li>
+                            <li>API design & integrations</li>
+                        </ul>
+                    </article>
+                    <article class="card">
+                        <h3>Highlights</h3>
+                        <ul>
+                            <li>Core Web Vitals A+</li>
+                            <li>Accessibility first</li>
+                            <li>CI/CD & testing</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section id="skills" class="section container">
+            <header class="section-header">
+                <h2>Skills</h2>
+                <p>Tools I use to get the job done.</p>
+            </header>
+
+            <div class="skill-grid">
+                <div class="skill">
+                    <span>HTML</span>
+                    <div class="meter" role="meter" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+                        <span style="width:95%"></span>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>CSS</span>
+                    <div class="meter" role="meter" aria-valuenow="92" aria-valuemin="0" aria-valuemax="100">
+                        <span style="width:92%"></span>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>JavaScript</span>
+                    <div class="meter" role="meter" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                        <span style="width:90%"></span>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>PHP</span>
+                    <div class="meter" role="meter" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                        <span style="width:80%"></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section id="projects" class="section container">
+            <header class="section-header">
+                <h2>Projects</h2>
+                <p>A selection of recent work.</p>
+            </header>
+
+            <div class="projects-grid">
+                <article class="project-card">
+                    <img src="assets/project1.jpg" alt="Project 1 screenshot" />
+                    <div class="project-content">
+                        <h3>Project One</h3>
+                        <p>Marketing site with blazing-fast performance and CMS.</p>
+                        <div class="tags">
+                            <span>HTML</span><span>CSS</span><span>PHP</span>
+                        </div>
+                        <div class="actions">
+                            <a href="#" class="btn btn-ghost" aria-label="View live site">Live ↗</a>
+                            <a href="#" class="btn btn-ghost" aria-label="View source code">Code</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <img src="assets/project2.jpg" alt="Project 2 screenshot" />
+                    <div class="project-content">
+                        <h3>Project Two</h3>
+                        <p>SPA dashboard with charts and real-time updates.</p>
+                        <div class="tags">
+                            <span>JS</span><span>API</span><span>Accessibility</span>
+                        </div>
+                        <div class="actions">
+                            <a href="#" class="btn btn-ghost">Live ↗</a>
+                            <a href="#" class="btn btn-ghost">Code</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <img src="assets/project3.jpg" alt="Project 3 screenshot" />
+                    <div class="project-content">
+                        <h3>Project Three</h3>
+                        <p>E‑commerce prototype with custom checkout flow.</p>
+                        <div class="tags">
+                            <span>PHP</span><span>MySQL</span><span>Stripe</span>
+                        </div>
+                        <div class="actions">
+                            <a href="#" class="btn btn-ghost">Live ↗</a>
+                            <a href="#" class="btn btn-ghost">Code</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Experience -->
+        <section id="experience" class="section container">
+            <header class="section-header">
+                <h2>Experience</h2>
+                <p>Roles I’ve held and what I shipped.</p>
+            </header>
+            <ul class="timeline">
+                <li>
+                    <div class="dot" aria-hidden="true"></div>
+                    <div class="timeline-content">
+                        <h3>Senior Frontend Engineer — Company A</h3>
+                        <time>2023–Present</time>
+                        <p>Led design system adoption; improved LCP by 42%.</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="dot" aria-hidden="true"></div>
+                    <div class="timeline-content">
+                        <h3>Full‑stack Developer — Company B</h3>
+                        <time>2020–2023</time>
+                        <p>Built internal tools that saved ~120 hrs/week.</p>
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact" class="section container">
+            <header class="section-header">
+                <h2>Contact</h2>
+                <p>Have a project in mind? Let’s talk.</p>
+            </header>
+
+            <form id="contactForm" class="card form" method="POST" action="contact.php" novalidate>
+                <div class="field">
+                    <label for="name">Name</label>
+                    <input id="name" name="name" type="text" autocomplete="name" required />
+                    <small class="error" data-for="name"></small>
+                </div>
+                <div class="field">
+                    <label for="email">Email</label>
+                    <input id="email" name="email" type="email" autocomplete="email" required />
+                    <small class="error" data-for="email"></small>
+                </div>
+                <div class="field">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" minlength="10" required></textarea>
+                    <small class="error" data-for="message"></small>
+                </div>
+
+                <!-- Honeypot -->
+                <div class="hp" aria-hidden="true">
+                    <label>Leave this field empty</label>
+                    <input type="text" name="company" tabindex="-1" autocomplete="off" />
+                </div>
+
+                <input type="hidden" name="csrf" id="csrf" />
+                <button class="btn btn-primary" type="submit">Send Message</button>
+                <p id="formStatus" role="status" aria-live="polite"></p>
+            </form>
+        </section>
+    </main>
+
+    <button id="backToTop" class="back-to-top" aria-label="Back to top">↑</button>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <p>© <span id="year"></span> Your Name. All rights reserved.</p>
+            <div class="socials">
+                <a href="#" aria-label="GitHub">GitHub</a>
+                <a href="#" aria-label="LinkedIn">LinkedIn</a>
+                <a href="#" aria-label="Twitter">Twitter</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js" defer></script>
+</body>
+
+</html>
